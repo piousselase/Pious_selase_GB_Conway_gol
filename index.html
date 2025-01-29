@@ -62,13 +62,21 @@
       Conway's Game of Life is a cellular automaton devised by mathematician John Conway. This version is a command-line interface (CLI) game built with Rust, offering an exciting way to explore the evolution of life using simple rules.
     </p>
 
-    <h2>Features</h2>
+    <h2>RULES OF THE GAME</h2>
     <ul>
-      <li>Built entirely with Rust for performance and reliability.</li>
-      <li>Customizable grid size and initial patterns.</li>
-      <li>Step-by-step or continuous simulation modes.</li>
+      <li>Any live cell with fewer than two live neighbors dies (underpopulation).</li>
+      <li>Any live cell with two or three live neighbors survives to the next generation.</li>
+      <li>Any live cell with more than three live neighbors dies (overpopulation).</li>
+      <>Any dead cell with exactly three live neighbors becomes a live cell (reproduction)</li>
     </ul>
-
+    
+    <h2>FEATURES</h2>
+    <ul>
+      <li>The game runs on a 2D grid, where each cell is either alive or dead.</li>
+      <li>The state of each cell is updated simultaneously in discrete time steps.</li>
+      <li>The evolution is determined entirely by the initial state, with no further input.</li>
+    </ul>
+    
     <h2>How to Play</h2>
     <ol>
       <li>Clone the repository: <br>
@@ -104,7 +112,7 @@
   </div>
 
   <footer>
-    <p>© 2025 Conway's Game of Life CLI | Built with ❤️ in Rust</p>
+    <p>© 2025 Conway's Game of Life CLI | Built in Rust</p>
   </footer>
 </body>
 </html>
