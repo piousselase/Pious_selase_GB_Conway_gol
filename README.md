@@ -7,4 +7,16 @@ A simple rust version of the famous conway game of life. This project is a comma
 -> Set the number of generations to simulate.  
 -> Watch life evolve in your terminal!  
 
-FIND ATTACHED ALL FILES AND AARCH64 BINARIES 
+**RULES OF THE GAME**
+Rules of the Game
+-> Any live cell with fewer than two live neighbors dies (underpopulation).
+-> Any live cell with two or three live neighbors survives to the next generation.
+-> Any live cell with more than three live neighbors dies (overpopulation).
+-> Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
+
+**HOW IT WORKS**
+-> The game runs on a 2D grid, where each cell is either alive or dead.
+-> The state of each cell is updated simultaneously in discrete time steps.
+-> The evolution is determined entirely by the initial state, with no further input.
+
+FIND ATTACHED ALL FILES AND AARCH64, LINUX AND X86_64 BINARIES 
