@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conway's Game of Life - CLI Version</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1e1e2e;
+      color: #f8f8f2;
+      line-height: 1.6;
+    }
+    header {
+      background: #44475a;
+      color: #f8f8f2;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #282a36;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    h1, h2 {
+      color: #ff79c6;
+    }
+    pre {
+      background: #44475a;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    a {
+      color: #8be9fd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #6272a4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Conway's Game of Life</h1>
+    <p>A Rust-powered CLI Game</p>
+  </header>
+
+  <div class="container">
+    <h2>About the Game</h2>
+    <p>
+      Conway's Game of Life is a cellular automaton devised by mathematician John Conway. This version is a command-line interface (CLI) game built with Rust, offering an exciting way to explore the evolution of life using simple rules.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Built entirely with Rust for performance and reliability.</li>
+      <li>Customizable grid size and initial patterns.</li>
+      <li>Step-by-step or continuous simulation modes.</li>
+    </ul>
+
+    <h2>How to Play</h2>
+    <ol>
+      <li>Clone the repository: <br>
+        <pre>git clone https://github.com/piousselase/Pious_selase_GB_Conway_gol</pre>
+      </li>
+      <li>Navigate to the project folder: <br>
+        <pre>cd conways_gameof_life_project</pre>
+      </li>
+      <li>Build the project: <br>
+        <pre>cargo build --release</pre>
+      </li>
+      <li>Run the game: <br>
+        <pre>./target/release/conways-game-of-life</pre>
+      </li>
+    </ol>
+
+    <h2>Gameplay Example</h2>
+    <pre>
+      Generation 1:
+      x o o o o
+      □ □ ■ ■ □
+      □ ■ ■ □ □
+      □ □ □ □ □
+      □ □ □ □ □
+      
+      Press "Enter" to continue...
+    </pre>
+
+    <h2>Learn More</h2>
+    <p>
+      Check out the project on <a href="https://github.com/piousselase/Pious_selase_GB_Conway_gol" target="_blank">GitHub</a> for more details, including source code and aarch64 binaries.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 Conway's Game of Life CLI | Built with ❤️ in Rust</p>
+  </footer>
+</body>
+</html>
